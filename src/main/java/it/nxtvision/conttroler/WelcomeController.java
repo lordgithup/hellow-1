@@ -10,4 +10,10 @@ public class WelcomeController {
     public String welcome() {
         return "Welcome to NxtVision!";
     }
+    
+    
+    @GetMapping("de")
+    public String welcom() {
+        return "Welcome to webtech!";
+    }
 }
